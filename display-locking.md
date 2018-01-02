@@ -177,8 +177,7 @@ these situations.
 Examples include getComputedStyle (requires style), offsetTop (requires
 layout), and elementFromPoint (requires hit testing).
 
-### What happens for custom
-elements?
+### What happens for custom elements?
 
 Custom event created-callbacks, microtasks, etc. all happen as usual
 when mutating the dom (i.e. during or just after one or more of the
